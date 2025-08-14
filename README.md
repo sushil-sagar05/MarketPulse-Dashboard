@@ -82,7 +82,7 @@ Clone the repository
 
 bash
 git clone https://github.com/sushil-sagar05/MarketPulse-Dashboard.git
-cd stockvision-pro/backend
+cd MarketPulse-Dashboard/flask
 Create virtual environment
 
 bash
