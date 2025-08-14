@@ -1,0 +1,40 @@
+{
+  "price_ranges": {
+    "RELIANCE": {"base": 2850.0, "volatility": 0.03, "trend": 0.001},
+    "TCS": {"base": 3045.0, "volatility": 0.025, "trend": -0.0005},
+    "INFY": {"base": 1456.0, "volatility": 0.035, "trend": 0.002},
+    "HDFCBANK": {"base": 1678.0, "volatility": 0.028, "trend": 0.001},
+    "ICICIBANK": {"base": 945.0, "volatility": 0.032, "trend": -0.001},
+    "BHARTIARTL": {"base": 867.0, "volatility": 0.04, "trend": 0.003},
+    "ITC": {"base": 456.0, "volatility": 0.02, "trend": 0.0005},
+    "LT": {"base": 2987.0, "volatility": 0.035, "trend": 0.002},
+    "SBIN": {"base": 623.0, "volatility": 0.045, "trend": -0.002},
+    "WIPRO": {"base": 445.0, "volatility": 0.038, "trend": 0.003},
+    "MARUTI": {"base": 10234.0, "volatility": 0.025, "trend": 0.001},
+    "TITAN": {"base": 2845.0, "volatility": 0.03, "trend": 0.002}
+  },
+  "volume_ranges": {
+    "RELIANCE": {"min": 1000000, "max": 8000000},
+    "TCS": {"min": 500000, "max": 3000000},
+    "INFY": {"min": 800000, "max": 4000000},
+    "HDFCBANK": {"min": 1500000, "max": 6000000},
+    "ICICIBANK": {"min": 1200000, "max": 5000000},
+    "BHARTIARTL": {"min": 2000000, "max": 8000000},
+    "ITC": {"min": 2500000, "max": 10000000},
+    "LT": {"min": 400000, "max": 2000000},
+    "SBIN": {"min": 3000000, "max": 12000000},
+    "WIPRO": {"min": 800000, "max": 3500000},
+    "MARUTI": {"min": 200000, "max": 1000000},
+    "TITAN": {"min": 500000, "max": 2500000}
+  },
+  "sector_trends": {
+    "Energy": {"volatility_multiplier": 1.2, "trend_factor": 0.8},
+    "IT": {"volatility_multiplier": 0.9, "trend_factor": 1.1},
+    "Banking": {"volatility_multiplier": 1.1, "trend_factor": 0.9},
+    "Telecom": {"volatility_multiplier": 1.3, "trend_factor": 1.0},
+    "FMCG": {"volatility_multiplier": 0.7, "trend_factor": 1.05},
+    "Engineering": {"volatility_multiplier": 1.0, "trend_factor": 1.0},
+    "Automotive": {"volatility_multiplier": 1.1, "trend_factor": 0.95},
+    "Consumer Goods": {"volatility_multiplier": 0.8, "trend_factor": 1.02}
+  }
+}

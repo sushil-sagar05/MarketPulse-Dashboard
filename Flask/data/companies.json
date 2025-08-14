@@ -1,0 +1,124 @@
+{
+  "companies": [
+    {
+      "symbol": "RELIANCE",
+      "name": "Reliance Industries Ltd",
+      "sector": "Energy",
+      "price": 2850.0,
+      "change": 15.5,
+      "pchange": 0.55,
+      "volume": 1500000,
+      "market_value": 4275000000
+    },
+    {
+      "symbol": "TCS",
+      "name": "Tata Consultancy Services",
+      "sector": "IT",
+      "price": 3045.0,
+      "change": -12.3,
+      "pchange": -0.40,
+      "volume": 800000,
+      "market_value": 2436000000
+    },
+    {
+      "symbol": "INFY",
+      "name": "Infosys Ltd",
+      "sector": "IT",
+      "price": 1456.0,
+      "change": 5.2,
+      "pchange": 0.36,
+      "volume": 1200000,
+      "market_value": 1747200000
+    },
+    {
+      "symbol": "HDFCBANK",
+      "name": "HDFC Bank Ltd",
+      "sector": "Banking",
+      "price": 1678.0,
+      "change": 8.9,
+      "pchange": 0.53,
+      "volume": 2100000,
+      "market_value": 3523800000
+    },
+    {
+      "symbol": "ICICIBANK",
+      "name": "ICICI Bank Ltd",
+      "sector": "Banking",
+      "price": 945.0,
+      "change": -3.4,
+      "pchange": -0.36,
+      "volume": 1800000,
+      "market_value": 1701000000
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "name": "Bharti Airtel Ltd",
+      "sector": "Telecom",
+      "price": 867.0,
+      "change": 12.1,
+      "pchange": 1.42,
+      "volume": 2500000,
+      "market_value": 2167500000
+    },
+    {
+      "symbol": "ITC",
+      "name": "ITC Ltd",
+      "sector": "FMCG",
+      "price": 456.0,
+      "change": 2.3,
+      "pchange": 0.51,
+      "volume": 3200000,
+      "market_value": 1459200000
+    },
+    {
+      "symbol": "LT",
+      "name": "Larsen & Toubro Ltd",
+      "sector": "Engineering",
+      "price": 2987.0,
+      "change": 18.7,
+      "pchange": 0.63,
+      "volume": 600000,
+      "market_value": 1792200000
+    },
+    {
+      "symbol": "SBIN",
+      "name": "State Bank of India",
+      "sector": "Banking",
+      "price": 623.0,
+      "change": -5.8,
+      "pchange": -0.92,
+      "volume": 4500000,
+      "market_value": 2803500000
+    },
+    {
+      "symbol": "WIPRO",
+      "name": "Wipro Ltd",
+      "sector": "IT",
+      "price": 445.0,
+      "change": 7.2,
+      "pchange": 1.64,
+      "volume": 1100000,
+      "market_value": 489500000
+    },
+    {
+      "symbol": "MARUTI",
+      "name": "Maruti Suzuki India Ltd",
+      "sector": "Automotive",
+      "price": 10234.0,
+      "change": 45.6,
+      "pchange": 0.45,
+      "volume": 300000,
+      "market_value": 3070200000
+    },
+    {
+      "symbol": "TITAN",
+      "name": "Titan Company Ltd",
+      "sector": "Consumer Goods",
+      "price": 2845.0,
+      "change": 23.4,
+      "pchange": 0.83,
+      "volume": 700000,
+      "market_value": 1991500000
+    }
+  ]
+}
