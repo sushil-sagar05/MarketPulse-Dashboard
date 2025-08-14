@@ -1,4 +1,4 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import { useStockData } from './hooks/useStockData';
 import AppHeader from './components/AppHeader';
 import StockSelector from './components/StockSelector';
@@ -33,7 +33,7 @@ function App() {
       )}
       
       <div className="flex h-[calc(100vh-56px)]">
-        <div className="hidden lg:flex lg:w-80 flex-shrink-0">
+        <div className="hidden lg:flex lg:w-80 xl:w-96 2xl:w-80 flex-shrink-0 border-r border-gray-200">
           <StockSelector
             companies={companies}
             selectedCompany={selectedCompany}
@@ -53,22 +53,22 @@ function App() {
             onClose={handleMenuClose}
           />
         </div>
-        <div className="flex-1 flex flex-col min-w-0">
-          <div className="flex-1 p-4">
+        <div className="flex-1 flex flex-col min-w-0 lg:max-w-none">
+          <div className="flex-1 p-2 sm:p-4 lg:p-6 xl:p-8">
             <MarketAnalyzer
               stockData={stockData}
               company={selectedCompany}
               loading={loading.stockData}
             />
           </div>
-          <div className="lg:hidden">
+          <div className="lg:hidden border-t border-gray-200">
             <AIInsights
               prediction={prediction}
               loading={loading.prediction}
             />
           </div>
         </div>
-        <div className="hidden lg:flex  flex-shrink-0">
+        <div className="hidden lg:flex lg:w-80 xl:w-96 2xl:w-80 flex-shrink-0 border-l border-gray-200">
           <AIInsights
             prediction={prediction}
             loading={loading.prediction}
