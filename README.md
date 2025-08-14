@@ -1,4 +1,4 @@
-MarketPulse-Dashboard
+### MarketPulse-Dashboard
 A modern full-stack stock market dashboard featuring real-time data visualization, intelligent predictions, and comprehensive market analysis.
 
 Real-time Stock Data: Live market data with interactive charts
@@ -81,7 +81,7 @@ Backend Setup
 Clone the repository
 
 bash
-git clone https://github.com/[your-username]/stockvision-pro.git
+git clone https://github.com/sushil-sagar05/MarketPulse-Dashboard.git
 cd stockvision-pro/backend
 Create virtual environment
 
